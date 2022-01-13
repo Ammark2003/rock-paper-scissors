@@ -1,0 +1,45 @@
+:root{
+    --bg: rgb(243, 188, 38);
+}
+
+html {
+    height: 100%;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+.mainheading {
+    margin: auto;
+    padding: auto;
+    font-size: 48px;
+}
+
+#header {
+    position: relative;
+    top: 0px;
+    color:#660000;
+    background-color: var(--bg);
+    height: 75px;
+}
+
+#container {
+    padding-top: 50px;
+    background-color: #222;
+    width: 100%;
+    height: 100%;
+}
+
+#playingArea {
+    margin: auto;
+    width: 80%;
+    height: 90%;
+    background-color: var(--bg);
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 10px;
+    border-color: rgb(245, 151, 9);
+}
