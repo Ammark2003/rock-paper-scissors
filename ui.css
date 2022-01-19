@@ -15,7 +15,9 @@ body{
 .mainheading {
     margin: auto;
     padding: auto;
-    font-size: 48px;
+    font-size: 54px;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: lighter;
 }
 
 #header {
@@ -29,7 +31,7 @@ body{
 #container {
     padding-top: 50px;
     background-color: #222;
-    width: 100%;
+    width: 100%;margin:auto;
     height: 100%;
 }
 
@@ -42,4 +44,56 @@ body{
     border-width: 10px;
     border-radius: 10px;
     border-color: rgb(245, 151, 9);
+    color: #600;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+#gameContainer {
+    height: 100%;
+    width: 100%;
+}
+
+.centreflex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    margin: auto;
+    height: 100px;
+    width: 200px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 32px;
+    background-color:#600;
+    color: var(--bg);
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.button:hover {
+    transform: scale(1.1,1.1);
+}
+
+#scoreCount{
+    padding-left: 10px;
+    text-align: center;
+    height: 20%;
+    font-size: 24px;
+}
+
+#gameButtons{
+    width: 100%;
+    height: 60%;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#message {
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+    height: 20%;
 }
